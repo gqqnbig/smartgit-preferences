@@ -1,0 +1,24 @@
+actions:
+  cleanup: {}
+  commit: {}
+  compare:
+    fileComparators:
+    - filePattern: '*'
+      compareType: 1
+      externalFileCompare: {command: ~/beyond-compare/bin/bcompare, command.absolute: /home/qiqig/beyond-compare/bin/bcompare,
+        parameters: '${leftFile} ${rightFile}" --title1=%bname --title2=%yname --leftreadonly'}
+    compareWithWorkingTree: false
+  conflictSolver:
+    conflictSolvers:
+    - filePattern: '*'
+      useExternal: true
+      externalTool: {command: ~/beyond-compare/bin/bcompare, command.absolute: /home/qiqig/beyond-compare/bin/bcompare,
+        parameters: '${leftFile} ${rightFile} ${baseFile} ${mergedFile} --title1=${leftTitle}
+          --title2=${rightTitle} --title4=${mergedTitle}'}
+  stash: {}
+  initCommitMessage: initial commit
+  allowModificationOfPushedHistory: true
+logSettings:
+  filterConfiguration: {}
+comparePreviewSettings: {}
+dateFormat: {datePattern: MM/dd/yyyy, timePattern: 'hh:mm a', showTimeForLastDays: true}
