@@ -97,21 +97,12 @@ globalTextComponentSettings:
     color-literal: 11184853, color-plain-text: 12566463, color-punctuation: 12561045,
     color-identifier: 12632256, color-string: 14002901, color-tag: 10274701, color-type: 11513807}
   colors.useDark: false
-listx: {eUT: 1625045977460, nRT: 1624775697663, eV: '20.2', uid: 481u62uivqfq}
-project: {showWelcomeDialog: false}
-uiSettings: {theme: auto, themeChanged: false, fileSearchPatternType: 1}
-vcsRecords: {lastDgUsage: 1623391883889}
-updateCheck: {prevCheckTime: 1624591762809, checkedBuild: 16168, mode: download, upgradeInstallation: false}
-updateCheckDg: {mode: download, prevCheckTime: 1623391885063, checkedBuild: 7006}
-proxy: {enabled: false, autoDetect: true}
 spellCheck:
   dictionaries:
   - {name: en_US, file: '${smartgit.install}/dictionaries/en_US.dic', file.absolute: /home/qiqig/smartgit/dictionaries/en_US.dic}
   deleted: false
   activeDictionary: 0
 lastUsedVersion: '20.2'
-firstUsedTime: 1622367529034
-tempDirs: [/tmp/smartgit11384819813392085925]
 warnForMissingMasterPassword: false
 sendStacktraces2: false
 sendUsageStats: false
