@@ -12,7 +12,7 @@ actions:
     conflictSolvers:
     - filePattern: '*'
       useExternal: true
-      externalTool: {command: ~/beyond-compare/bin/bcompare, command.absolute: /home/qiqig/beyond-compare/bin/bcompare,
+      externalTool: {command: ~/bin/bcompare, command.absolute: /home/qiqig/bin/bcompare,
         parameters: '${leftFile} ${rightFile} ${baseFile} ${mergedFile} --title1=${leftTitle}
           --title2=${rightTitle} --title4=${mergedTitle}'}
   stash: {}
