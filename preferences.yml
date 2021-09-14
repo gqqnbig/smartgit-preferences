@@ -6,7 +6,7 @@ actions:
     - filePattern: '*'
       compareType: 1
       externalFileCompare: {command: ~/beyond-compare/bin/bcompare, command.absolute: /home/qiqig/beyond-compare/bin/bcompare,
-        parameters: '${leftFile} ${rightFile}" --title1=%bname --title2=%yname --leftreadonly'}
+        parameters: '${leftFile} ${rightFile}  --title1=%bname --title2=%yname --leftreadonly'}
     compareWithWorkingTree: false
   conflictSolver:
     conflictSolvers:
@@ -26,6 +26,7 @@ logSettings:
     key-id: true
     key-message: true
     key-ref: true
+  allowCommandsOnSpecialCommits: true
 comparePreviewSettings: {}
 dateFormat: {datePattern: MM/dd/yyyy, timePattern: 'hh:mm a', showTimeForLastDays: true}
 defaultViewSettings:
